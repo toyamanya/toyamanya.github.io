@@ -9,4 +9,5 @@ const countUp = () => {
 const countDel = () => {
   const countElement = document.querySelector("#count");
   countElement.innerText = "回数:" + 0;
+  count = 0;
 };
